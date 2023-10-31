@@ -1,0 +1,23 @@
+
+/* Style for the user's message */
+.user-message {
+    background-color: #007bff;
+    width: 50%;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 10px 1px 5px 50%;
+    text-align: center;
+}
+
+/* Style for the recipient's message */
+.recipient-message {
+    background-color: #e0e0e0;
+    width: 50%;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 10px 50% 5px 1px;
+    text-align: center;
+}
+
+

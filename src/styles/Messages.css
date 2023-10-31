@@ -1,0 +1,64 @@
+.message-container {
+    width: 50vw;
+    margin: 0 auto;
+}
+.message-parent {
+    display: grid;
+    place-items: center;
+  }
+/* Style for the message input container */
+.message-input-container {
+    display: flex;
+    align-items: center;
+    background: #f0f0f0;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+/* Style for the message input field */
+.message-input {
+    flex-grow: 2;
+    flex-shrink: 1;
+    flex-basis: auto;
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+}
+
+/* Style for the send button */
+.send-button {
+    background-color: #007bff;
+    color: white;
+    margin-left: 2px;
+    border: none;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.send-button:focus {
+    background-color: #898989;
+}
+
+.header {
+    background-color: #3498db;
+    border-radius: 4px;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+h1 {
+    font-size: 36px;
+    text-transform: uppercase;
+}
+
+.messageItemContainer {
+    width: auto;
+    height: 200px;
+    overflow: auto;
+}
